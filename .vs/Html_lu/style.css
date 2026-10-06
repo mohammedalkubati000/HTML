@@ -1,0 +1,124 @@
+*{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+body{
+        font-family: Arial,Tahoma;
+        
+}
+ul{
+        list-style: none;
+}
+.clearfix{
+        clear: both;
+}
+
+.header1{
+        background-color:#333;
+        color:#fff;
+        padding: 20px;
+        text-align: center;
+}
+main{
+        background-color:#ddd;
+        color:#080808;
+        padding: 20px;
+        text-align: center;
+        flex: 1;
+}
+ main p{
+        text-align: center;
+}
+ main p span{
+        font-size: 20px;
+        color: #fff;
+ }
+ main p span mark{
+        background-color: #333;
+        color: #fff;
+}
+nav{
+        background-color:#c5c5c5;
+}
+nav ul {
+        padding: 20px;
+        text-align: center;
+}
+
+nav ul li{
+        display: inline-block;
+        padding: 10px;
+}
+nav ul li::after{
+        content:" |";
+}
+nav ul li:last-child::after{
+        content:"";
+}
+
+.posts{
+       width: 70%;
+       float: left;
+}
+.posts article{
+        padding: 20px;
+        background-color:#F6F6F6;
+        border: 1px solid #ccc;
+        margin:20px;
+}
+.posts article header{
+        background-color:#E2E2E2;
+        padding: 10px;
+}
+.posts article section{
+        padding: 10px;
+
+}
+.posts article section details{
+       margin: 10px 0 ;
+        
+}
+
+.posts article section.long-link{
+        width: 200px;
+}
+/*End article */
+
+/*Start sidebar */
+  
+aside{
+        width: 30%;
+        float: right;
+
+}
+aside section{
+        background-color:#e3e3e3;
+        margin:20px 10px; ;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+}
+aside section h3{
+        background-color:#d1d1d1;
+        padding: 10px;
+        margin-bottom: 10px;
+}
+aside section ul li{
+       line-height:1.6  
+}
+
+/*End sidebar */
+
+/*Start footer */
+
+footer{
+        background-color:#333;
+        color:#ddd;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+}
+/* end footer */
