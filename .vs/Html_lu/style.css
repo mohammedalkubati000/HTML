@@ -85,6 +85,27 @@ nav ul li:last-child::after{
 .posts article section.long-link{
         width: 200px;
 }
+.posts article section code{
+        background-color:#E2E2E2;
+        padding: 20px;
+        display: block;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        max-width: 100%;
+        
+}
+
+.posts article section .html5 input{
+        display: block;
+        margin: 10px;
+}
+.posts article section .html55 input{
+        display: block;
+        margin: 10px;
+}
+
+
+
 /*End article */
 
 /*Start sidebar */

@@ -82,7 +82,7 @@
        <article>
         <header>
                 <h3>Article 4 &lt;figure&gt;</h3>
-                <p>created by <span>mohammed</span> on <span>2023-10-01</span></p>
+                <p>created by <span>mohammed</span> on <time datetime="2023-10-01T18:28:00">2023-10-01</time></p>
         </header>
             <section>
                 <p>this code describes ths div syntax </p>
@@ -96,6 +96,7 @@
 
             <section>
                 <p>this code describes ths image </p>
+                <dialog>This id Dialog from html5 </dialog>
                 <figure> 
                     <figcaption>This Div cat   </figcaption>
                     <img src="images/cat.jpg" alt="cat" title="cat">
@@ -122,6 +123,37 @@
         <div>
             CPU :<meter min="0" max="1" value=".3" low=".4" high=".8" optimum=".7"></meter>
         </div>
+    </section>
+    <section class="top-members">
+        <h3>Top Members</h3>
+        <ul>
+            <li>mohammed:95 points </li>
+            <li>ahmed: 80 points</li>
+            <li>khaled: 70 points</li>
+            <li><bdi>علي</bdi>: 60 points</li>
+        </ul>
+    </section>
+    <section class="poll">
+        <h3>What is your favorite browser?</h3>
+        <form>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Edge">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="submit" value="choose">
+        </form>
+    </section>
+    <section>
+        <h3>calculator your age in days</h3>
+        <form oninput="result.value = parseInt(age.value) * parseInt(days.valuexxxx) + 'days' ">
+            <input type="text" name="age">
+            <input type="hidden" name="days" value="365">
+            <output name="result" > </output>
+        </form>
     </section>
   </aside>
 <!--End sidebar -->
