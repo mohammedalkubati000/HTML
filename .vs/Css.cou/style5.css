@@ -1,0 +1,14 @@
+div{
+      background-color: #eee;
+      padding: 10px;
+      border: 1px solid #ccc ;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+div:hover
+{
+     overflow:visible ;
+}

@@ -1,0 +1,27 @@
+*{
+      box-sizing: border-box;
+}
+.container
+{
+      width: 400px;
+      background-color: #EEE;
+      margin: 100px auto;
+      padding: 10px;
+      border: 1px solid #CCC;
+      height: 200px;
+      overflow: visible;
+
+}
+.translate{
+     background-color: #080;
+     color: #FFF;
+     text-align: center;
+     /* height: 200px;  */  
+     height: 180px;
+     transition: all 1s ease-in-out;
+}
+.translate:hover
+{
+   transform: translate(-160px) scale(.75) rotate(-20deg);
+    
+}

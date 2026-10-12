@@ -1,0 +1,14 @@
+div
+{
+       padding: 10pt;
+       background: #EEE;
+       border: 1px solid  #ccc ;
+       width: 200px;
+       height: 200px;
+       margin: 20px auto;
+       box-shadow: -5px -5px 8px #ec0101 ,
+                    -5px -5px 8px #ec0101 inset,
+                    5px 5px 8px  #00f,
+                   5px 5px 8px  #00f inset;
+       
+}

@@ -1,0 +1,30 @@
+*
+{
+       box-sizing:border-box ;
+}
+
+section
+{
+       width: 940px;
+       margin: 20px;
+       background: #eee;
+       overflow: hidden;
+
+}
+.left
+{
+       float:left ;
+       width: 340px;
+       background-color: brown;
+       color: blue;
+       padding: 10px;
+       
+}
+.right
+{
+       float: right;
+       width: 600px;
+       background-color: blue;
+       color: brown;
+       padding: 10px;
+}

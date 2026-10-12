@@ -1,0 +1,13 @@
+img{
+
+       margin:  50%;
+       padding: 10px;
+       background-color: rgb(235, 235, 243);
+       border: 1px solid #4f2020;
+        transition: all 0.5s;
+}
+img:hover{
+      border-radius: 50%;
+       box-shadow: 10px 10px 10px #e4e4e4,
+                   -100px -10px -10px;
+}

@@ -1,0 +1,25 @@
+*{
+      box-sizing: border-box
+}
+div{
+      margin: 50px 0 100px
+}
+div:first-of-type{
+     perspective: 600px 
+}
+div:nth-of-type(2){
+     perspective: 400px; 
+}
+div:last-of-type{
+     perspective: 300px; 
+}
+img{
+      display: block;
+      margin: 50px auto;
+      transition: all 0.5s ease-in-out;
+      transform: translateZ(100px);      
+
+}
+img:hover{
+}
+    
