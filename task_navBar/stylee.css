@@ -1,0 +1,306 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif; 
+  background-color: #6B7280;  
+}
+.Main-Nav{
+    width: 236px;
+    height: 728px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    position: fixed;
+    left: 0;
+    right: auto;     
+    top: 0;
+    padding: 10px;
+    padding-top: 12px;
+    background-color: #FFF;
+    position: fixed;
+    
+}
+
+.section-1{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+}
+.section-1 .Logo-Image{
+    width: 19px ;
+     height: 18.99536px ;
+     margin-right: 8.2px;
+    
+}
+.section-1 .Logo-Brand{
+    margin-right: 72px;
+}
+.section-1 .icon-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin-left:0 ; 
+}
+.section-1 .icon-2-1{
+    width: 14px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-2 {
+    margin-top: 10px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.section-2 .nav-link {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+
+.section-2 .icon-2-2 {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+.section-2 .icon-2-3 {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.section-2 .Home-page-s2 {
+    color: #475569;
+    font-size: 14px;
+    text-decoration: none ;
+    white-space: nowrap;
+}
+
+
+.section-2 .nav-Monitor {
+    display: flex ;
+    flex-direction: row ;
+    align-items: center ; 
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+
+.section-2 .Home-page-s3 {
+    color: #475569;
+    font-size: 14px;
+    text-decoration: none ;
+    white-space: nowrap;
+}
+
+.section-2 .nav-OmniServe {
+    display: flex ;
+    flex-direction: row ;  
+    align-items: center ; 
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+
+.section-2 .nav-Surveys {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ; 
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+.section-2 .nav-Profiles {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+.section-2 .nav-Automation {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+.section-2 .nav-Audio-Transcription {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+.section-2 .nav-Tickets {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+.section-2 :hover{
+    border-radius: 4px;
+    background-color: #E6F3FC;
+}
+.section-3{
+    margin-top: 496px;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+.section-3 .icon-2-3 {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.section-3 .icon-2-4 {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.section-3 .Home-page-s3 {
+    color: #475569;
+    font-size: 14px;
+    text-decoration: none ;
+    white-space: nowrap;
+}
+.section-3 .nav-Ask-Luci {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+}
+.section-3 .nav-Utilities {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ; 
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+    
+}
+.section-3 .nav-Notifications {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+    
+}
+.section-3 .nav-Settings {
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 10px;
+    text-decoration: none ;
+    padding: 0 8px;
+    
+}
+.section-3 :hover{
+    border-radius: 4px;
+    background-color: #E6F3FC;
+}
+.section-4{
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    background-color: #FFF;
+    border-radius: 4px;
+    width: 216px;
+   
+}
+.section-4 .nav-L {
+    
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;  
+    height: 100%;
+    gap: 6px;
+    text-decoration: none ;
+    padding: 0 8px;  
+}
+.section-4 .icon-2-6{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #B8BCC4;
+    color: #6B7280;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+}
+
+.section-4 .icon-2-6 i{
+    font-size: 22px;
+    margin-bottom: -3px;
+}
+.section-4 .nav-L .Home-page-s33{
+      color: #6B7280
+}
+.section-4 :hover{
+    border-radius: 4px;
+    background-color: #E6F3FC;
+    
+}

@@ -1,0 +1,37 @@
+var myString = "I Love \"Programming \" Language ";
+    console.log(myString);
+var myString1 = "I Love \"Programming \" Language ";
+    console.log(myString1.length);
+var myString2 = 120;
+    // Number To String 
+    myNewString = myString2.toString();
+    mNewString = String(myString2);
+    console.log(myNewString);
+    console.log(myNewString);
+var myString3 = "I Love Programming Language ";
+    mySerch = myString3.indexOf("Programming",5);
+    mySerch1 = myString3.lastIndexOf("Programming",10);
+    mySerch2 = myString3.search("Programming");
+    console.log(mySerch);
+    console.log(mySerch1);
+    console.log(mySerch2);
+var myString4 = "I Love Programming Language ";
+    mySplit = myString4.split(" ",4);
+    mySplit1 = myString4.slice(2);
+    console.log(mySplit);
+    console.log(mySplit1);
+var myString5 = "I Love Programming Language ";
+    mySubString = myString5.substring(2,10);
+    console.log(mySubString);
+var myString6 = "I Love Programming Language ";
+    mySubStringg = myString6.charAt(15);
+    mySubStringg = myString6.charCodeAt(15);
+    mySubStringg = myString6.replace("Programming","JavaScript");
+    console.log(mySubStringg);
+var myString7 = "I Love Programming Language ";
+    mySubString2g = myString7.concat(" and JavaScript!").toLowerCase().split("");
+    console.log(mySubString2g);
+var myString8 = "I Love Programming Language ";
+    mySubString3g = myString8.link("https://www.google.com/");
+    console.log(mySubString3g);
+    

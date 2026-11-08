@@ -1,0 +1,75 @@
+*{
+        box-sizing: border-box;
+}
+body{
+        
+        background-color: #E2E8F0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+}
+.Accordion-Card{
+        width: 408px;
+        height: auto;
+        border-radius: 6px;
+        background-color: #FFF;
+        overflow: hidden;
+        /*align-self: stretch;  */
+        border-radius: 6px;
+        border: 1px solid #E2E8F0;
+        direction: inherit;
+}   
+.Accordion-Card:hover{
+         background-color: #F8FAFC;
+         border: 1px solid #94A3B8;
+}
+.summary1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        height: 58px;  /* Q */
+}
+.summary1 .icon{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-right: 12px;
+}
+.arrow-icon{
+        margin-left: 18px;
+        width: 13px;  /* Q */
+        height: 14px; /* Q */
+
+}
+details[open] .arrow-icon {
+transform: rotate(180deg);
+}
+.Accordion{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+}
+.Accordion li{
+        border-top: 1px solid  #E2E8F0;
+        display: flex;
+        width: 408px;
+        padding: 16px;
+        align-items: center;
+        gap: 12px;
+}
+.fa-facebook{
+      color:#1877F2;  
+}
+.fa-instagram{
+        color:#E1306C;
+}
+.fa-snapchat{
+
+color: #FFFC00; 
+
+}

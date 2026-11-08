@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}    
+body
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box; 
+}
+.section-1
+{
+    display: flex;
+    flex-direction: column;         
+    justify-content: center;
+    min-height: 52px; 
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-bottom:0 ;
+}
+.main-1
+{
+    display: flex;
+    flex-direction: column;        
+    justify-content: space-between;
+    width: 100%; 
+     
+      
+}
+.AI-Summary
+{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    width: 100%;  
+    padding-left: 12px;
+    padding-right: 12px; 
+}
+.AI-Summary-Div
+{
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+}
+.icon
+{
+    width: 32px;
+    height: 32px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    color: #FFFFFF;
+}
+.Text-Header-Frame
+{
+    margin-right: 6px;        
+}
+.fa-circle-info
+{
+    color: #C7C7C7;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 14.96px;
+}
+.Date-Frame{
+    display: flex;
+    align-items: center;            
+}
+.Text-Date-Frame{
+    margin-right: 12px;
+}
+.fa-refresh
+{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 16px;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.main-2{
+  padding-left: 36px;
+  padding-right: 36px; 
+  border-top: 0;
+  border-radius: 12px;
+
+}
+.ol-main02{
+    margin-top: 20px;
+    list-style: decimal;
+}
+.li-main02
+{
+    padding: 4px;
+}
+.read-more{
+    margin-top: 9.31px;
+    margin-bottom: 20.69px;
+    padding-right: 36px;
+    background: none;
+    border: none; 
+    padding-right: 2px;
+    text-decoration: underline;
+    color: #7D00D4;
+}
+.container{
+    
+  
+} 
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid #E2E8F0;
+    margin-left: 28px;
+    margin-right: 27px;
+    padding: 20px;
+
+}
+.overview-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 15.957px;
+    background: #FAFAFA;
+    margin-top: 13px;
+}
+.overview-card-icon{
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
