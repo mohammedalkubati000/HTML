@@ -8,52 +8,53 @@
 </head>
     <body>
                 <section class="Container-Calculator">
+                    <div class="display" id="display">0</div>
                     <div class="Buttons-Calculator">
                         <div class="Buttons-Top-Row">
                             <div class="div-AC">
-                                <button class ="Button-AC">AC</button>
+                                <button class ="Button-AC" onclick="clearAll()">AC</button>
                             </div>
                             <div class="div-Arithmetic-Operations">
-                                <button class ="Arithmetic-Operations">÷</button>
+                                <button class ="Arithmetic-Operations " onclick="pressOperator('÷')">÷</button>
                             </div>
                         </div>
                         <div class="Buttons-Top-Row">
                             <div class="div-numbers">
-                                <button class ="Button-numbers">7</button>
-                                <button class ="Button-numbers">8</button>
-                                <button class ="Button-numbers">9</button>
+                                <button class ="Button-numbers" onclick="pressNumber('7')">7</button>
+                                <button class ="Button-numbers" onclick="pressNumber('8')">8</button>
+                                <button class ="Button-numbers" onclick="pressNumber('9')">9</button>
                             </div>
                             <div class="div-Arithmetic-Operations">
-                                <button class ="Arithmetic-Operations">×</button>
+                                <button class ="Arithmetic-Operations" onclick="pressOperator('×')">×</button>
                             </div>
                         </div>
                         <div class="Buttons-Top-Row">
                             <div class="div-numbers">
-                                <button class ="Button-numbers">4</button>
-                                <button class ="Button-numbers">5</button>
-                                <button class ="Button-numbers">6</button>
+                                <button class ="Button-numbers" onclick="pressNumber('4')">4</button>
+                                <button class ="Button-numbers" onclick="pressNumber('5')">5</button>
+                                <button class ="Button-numbers" onclick="pressNumber('6')">6</button>
                             </div>
                             <div class="div-Arithmetic-Operations">
-                                <button class ="Arithmetic-Operations">×</button>
+                                <button class ="Arithmetic-Operations" onclick="pressOperator('-')">-</button>
                             </div>
                         </div>
                         <div class="Buttons-Top-Row">
                             <div class="div-numbers">
-                                <button class ="Button-numbers">1</button>
-                                <button class ="Button-numbers">2</button>
-                                <button class ="Button-numbers">3</button>
+                                <button class ="Button-numbers" onclick="pressNumber('1')">1</button>
+                                <button class ="Button-numbers" onclick="pressNumber('2')">2</button>
+                                <button class ="Button-numbers" onclick="pressNumber('3')">3</button>
                             </div>
                             <div class="div-Arithmetic-Operations">
-                                <button class ="Arithmetic-Operations">×</button>
+                                <button class ="Arithmetic-Operations" onclick="pressOperator('+')">+</button>
                             </div>
                         </div>
                        <div class="Buttons-Top-Row">
                             <div class="div-numbers-foter">
-                                <button class ="Button-Zero">0</button>
-                                <button class ="Button-numbers">.</button>
+                                <button class ="Button-Zero" onclick="pressNumber('0')">0</button>
+                                <button class ="Button-numbers" onclick="pressNumber('.')">.</button>
                             </div>
                             <div class="div-Arithmetic-Operations">
-                                <button class ="Arithmetic-Operations">=</button>
+                                <button class ="Arithmetic-Operations" onclick="calculate('=')">=</button>
                             </div>
                         </div>
 
